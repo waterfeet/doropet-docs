@@ -4,7 +4,7 @@ layout: home
 hero:
   name: DoroPet
   text: 桌面宠物使用文档
-  tagline: 一只住在桌面上的 Doro，能聊天、能唱歌、也能陪你直播
+  tagline: 一只住在桌面上的 Doro，能聊天、能唱歌、能记住你说过的话
   actions:
     - theme: brand
       text: 快速开始
@@ -20,6 +20,4 @@ features:
     details: 接自己的大模型，配好人设与工具，她记得你说过的话，也能真的帮你做事。
   - title: 音乐与歌词
     details: 搜索、点歌、播放一气呵成，歌词可视化随旋律铺满整个屏幕。
-  - title: 直播间
-    details: 推流到 OBS，弹幕、点歌、舞台背景一套配齐，把桌面变成你的直播间。
 ---

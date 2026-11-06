@@ -40,8 +40,7 @@ export default defineConfig({
             { text: '功能总览', link: '/features/' },
             { text: '桌面宠物', link: '/features/pet' },
             { text: 'AI 对话', link: '/features/chat' },
-            { text: '音乐与歌词', link: '/features/music' },
-            { text: '直播间', link: '/features/live' }
+            { text: '音乐与歌词', link: '/features/music' }
           ]
         }
       ]
