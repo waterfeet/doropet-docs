@@ -12,8 +12,9 @@
 | 你想解决的问题 | 去看 |
 | --- | --- |
 | 装不上、打不开、白屏 | [安装 DoroPet](/guide/install) |
+| 第一次用，不知道模型怎么配 | [配置对话模型](/guide/model-setup) |
 | 桌面上的 Doro 怎么拖、怎么缩放 | [桌面宠物](/features/pet) |
-| 她答得很笨，想换模型 | [AI 对话](/features/chat) |
+| 她答得很笨，想换模型 | [配置对话模型](/guide/model-setup) |
 | 放歌、看歌词 | [音乐与歌词](/features/music) |
 | 其他零碎问题 | [常见问题](/faq) |
 

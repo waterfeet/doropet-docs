@@ -8,13 +8,18 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
     ['meta', { name: 'theme-color', content: '#7c6cf0' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'DoroPet 使用文档' }],
-    ['meta', { property: 'og:description', content: 'DoroPet 桌面宠物的安装、配置与玩法说明' }]
+    ['meta', { property: 'og:description', content: 'DoroPet 桌面宠物的安装、配置与玩法说明' }],
+    ['meta', { property: 'og:image', content: '/logo.png' }]
   ],
 
   themeConfig: {
+    logo: { src: '/logo.png', width: 24, height: 24 },
+
     nav: [
       { text: '指南', link: '/guide/', activeMatch: '/guide/' },
       { text: '功能', link: '/features/', activeMatch: '/features/' },
@@ -29,7 +34,23 @@ export default defineConfig({
           items: [
             { text: '文档简介', link: '/guide/' },
             { text: '安装 DoroPet', link: '/guide/install' },
-            { text: '第一次启动', link: '/guide/quickstart' }
+            { text: '第一次启动', link: '/guide/quickstart' },
+            { text: '配置对话模型', link: '/guide/model-setup' }
+          ]
+        }
+      ],
+      '/features/chat/': [
+        {
+          text: 'AI 对话',
+          items: [
+            { text: '对话总览', link: '/features/chat/' },
+            { text: '会话管理', link: '/features/chat/conversation' },
+            { text: '工作区', link: '/features/chat/workspace' },
+            { text: '角色与人设', link: '/features/chat/persona' },
+            { text: '工具调用', link: '/features/chat/tools' },
+            { text: '语音输入与朗读', link: '/features/chat/voice' },
+            { text: '图片与截图', link: '/features/chat/image' },
+            { text: '记忆', link: '/features/chat/memory' }
           ]
         }
       ],
@@ -39,8 +60,15 @@ export default defineConfig({
           items: [
             { text: '功能总览', link: '/features/' },
             { text: '桌面宠物', link: '/features/pet' },
-            { text: 'AI 对话', link: '/features/chat' },
-            { text: '音乐与歌词', link: '/features/music' }
+            { text: '养成与 Doro 币', link: '/features/growth' },
+            { text: 'AI 对话', link: '/features/chat/' },
+            { text: '音乐与歌词', link: '/features/music' },
+            { text: '灵动岛', link: '/features/island' },
+            { text: 'QQ 接入', link: '/features/qq' },
+            { text: '五子棋', link: '/features/gomoku' },
+            { text: '备忘与提醒', link: '/features/memo' },
+            { text: '工作流', link: '/features/workflow' },
+            { text: '其他功能', link: '/features/others' }
           ]
         }
       ]

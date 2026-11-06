@@ -1,6 +1,8 @@
 node_modules
 docs/.vitepress/dist
 docs/.vitepress/cache
+*.timestamp-*.mjs
+verify-out
 .vercel
 *.log
 
