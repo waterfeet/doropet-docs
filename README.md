@@ -38,10 +38,13 @@ docs-site/
 
 ## 部署到 Vercel
 
-1. Vercel 新建 Project，指向本仓库。
-2. **Root Directory 填 `releasetogit/docs-site`**（如果仓库根就是 docs-site，则留空）。
-3. Framework Preset 选 `Other`。构建命令和产物目录已在 `vercel.json` 里声明，不用手填。
-4. 项目 Settings → Domains 添加 `docs.doropet.com`，按提示加 CNAME。
+仓库地址：https://github.com/waterfeet/doropet-docs
+
+1. Vercel → Add New → Project，选 `doropet-docs` 仓库。
+2. **Root Directory 保持默认**。仓库根就是站点根，不要再往下选一层。
+3. Framework Preset 选 `VitePress`；列表里没有就选 `Other`。
+4. 构建命令和产物目录已在 `vercel.json` 里声明，不要手填覆盖。
+5. 部署完成后在 Settings → Domains 添加 `docs.doropet.com`，按提示加 CNAME。
 
 ## 关于 Gitee + Vercel（重要）
 
